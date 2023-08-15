@@ -1,0 +1,56 @@
+
+body {
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 1.2rem;
+    padding: 0 20%;
+}
+#books {
+    width:50%;
+    margin: auto;
+    display: block;
+}
+
+h1,p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(122, 122, 122);
+}
+
+a:hover {
+    color: rgb(255, 124, 10);
+}
+
+#imgLabel {
+    margin-bottom: 50px;
+}
+
+#toForm {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+form {
+    width:50%;
+    margin: auto;
+    text-align: center;
+}
+
+div {
+    padding: 10px 0;
+}
+
+input{
+    margin: 10px;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+select{
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+input, select {
+    font-size: 1rem;
+}

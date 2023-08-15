@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form Submit</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>ลงทะเบียน สำหรับผู้สนใจเช่าบูธ</h1>
+        <form action="">
+            <div>
+                <label for="company">ชื่อบริษัท</label>
+                <input type="text" id="company" name="company" />
+            </div>
+
+            <div>
+                <span>ขนาดบูธ : </span>
+                <select name="booth" id="booth">
+                    <option value="small">10x10 ฟุต</option>
+                    <option value="big">10x15 ฟุต</option>
+                </select>
+            </div>
+
+            <div>
+                <input type="checkbox" id="table" name="table" />
+                <label for="table">ต้องการโต๊ะติดตั้งในบูธหรือไม่</label>
+            </div>
+
+            <div>
+                <label for="chair">จำนวนเก้าอี้</label>
+                <input type="number" id="chair" name="chair" />
+            </div>
+
+            <div>
+                <label for="contact">ชื่อผู้ติดต่อ</label>
+                <input type="text" id="contact" name="contact" />
+            </div>
+
+            <div>
+                <label for="company">เบอร์ผู้ติดต่อ</label>
+                <input type="text" id="phone" name="phone" />
+            </div>
+
+            <!-- <button>ส่งแบบฟอร์ม</button> -->
+            <input type="submit" value="ส่งแบบฟอร์ม" />
+        </form>
+    </body>
+</html>
