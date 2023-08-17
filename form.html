@@ -12,6 +12,7 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="style.css" />
+        <script src="register.js"></script>
     </head>
     <body>
         <h1>ลงทะเบียน สำหรับผู้สนใจเช่าบูธ</h1>
@@ -23,7 +24,7 @@
 
             <div>
                 <span>ขนาดบูธ : </span>
-                <select name="booth" id="booth">
+                <select name="booth" id="booth" required>
                     <option value="small">10x10 ฟุต</option>
                     <option value="big">10x15 ฟุต</option>
                 </select>
@@ -50,7 +51,7 @@
             </div>
 
             <!-- <button>ส่งแบบฟอร์ม</button> -->
-            <input type="submit" value="ส่งแบบฟอร์ม" />
+            <input type="submit" value="ส่งแบบฟอร์ม" onclick="checkData()" />
         </form>
     </body>
 </html>
